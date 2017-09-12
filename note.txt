@@ -1,0 +1,28 @@
+/************************************************************
+************************************************************/
+■コピーコンストラクタ、代入演算子、デストラクタ
+	http://tercel-tech.hatenablog.com/entry/2012/11/03/003302
+	
+	contents
+		・	値オブジェクトを作成するときは「ビッグスリー」原則に従うことが重要である.
+			->デストラクタ、コピーコンストラクタ、代入演算子の3つのメンバ関数は常に共存する必要がある
+			
+		・	さらに、間違いが起こらないように、中でnewをするクラスはコピーを禁止することを義務づけよう。いっそ、作るクラス全てを全部コピー禁止にしてもいい。
+		
+
+■コピー禁止を徹底させるNoncopyableクラス
+	http://marupeke296.com/DXCLS_Noncopyable.html
+
+■singleton
+	my Github
+		https://github.com/SJ-magic-study/study__Singleton
+	
+	Singleton
+		http://marupeke296.com/DP_Singleton.html
+	
+	wikipedia
+		https://ja.wikipedia.org/wiki/Singleton_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3#C.2B.2B.E3.81.A7.E3.81.AE.E5.AE.9F.E8.A3.85.E4.BE.8B
+	
+	
+	
+	
